@@ -1,4 +1,3 @@
-````md
 # 📈 RELIANCE.NS Market Regime Analysis
 
 A Data Science project focused on analyzing the historical behavior of **RELIANCE.NS** stock using market trends, trading volume, volatility, and regime classification techniques.
@@ -45,148 +44,91 @@ The goal is to understand stock behavior through data-driven analysis and visual
 ├── RELIANCE.NS_closing_price_over_time.png
 ├── RELIANCE.NS_trading_volume_over_time.png
 └── RELIANCE.NS_market_regime_distribution.png
-````
-
----
-
-# 📊 Closing Price Analysis
+📊 Closing Price Analysis
 
 The graph below shows the historical closing price movement of RELIANCE.NS over time.
 
-![RELIANCE Closing Price](RELIANCE.NS_closing_price_over_time.png)
 
----
 
-# 📌 Key Insights
 
-* RELIANCE has shown a strong long-term upward trend.
-* The stock experienced significant volatility during the 2020 market crash.
-* Post-2020 recovery displayed aggressive bullish momentum.
-* Trading activity spikes indicate periods of institutional participation and high market interest.
-* Sideways consolidation phases are visible before breakout movements.
-
----
-
-# 🧠 Market Regime Classification
+📌 Key Insights
+RELIANCE has shown a strong long-term upward trend.
+The stock experienced significant volatility during the 2020 market crash.
+Post-2020 recovery displayed aggressive bullish momentum.
+Trading activity spikes indicate periods of institutional participation and high market interest.
+Sideways consolidation phases are visible before breakout movements.
+🧠 Market Regime Classification
 
 The project classifies market conditions into different regimes based on:
 
-* Price Momentum
-* Daily Returns
-* Volatility
-* Moving Average Trends
-* Trend Strength
+Price Momentum
+Daily Returns
+Volatility
+Moving Average Trends
+Trend Strength
 
 Example logic:
 
-```python
 if returns > threshold:
     regime = "Bullish"
 elif returns < -threshold:
     regime = "Bearish"
 else:
     regime = "Sideways"
-```
-
----
-
-# 📥 Dataset Source
+📥 Dataset Source
 
 Historical stock market data fetched directly from Yahoo Finance.
 
 Ticker Used:
 
-```python
 RELIANCE.NS
-```
-
----
-
-# ⚙️ Installation
+⚙️ Installation
 
 Clone the repository:
 
-```bash
 git clone https://github.com/your-username/reliance-market-regime-analysis.git
-```
 
 Move into the project directory:
 
-```bash
 cd reliance-market-regime-analysis
-```
 
 Install dependencies:
 
-```bash
 pip install -r requirements.txt
-```
 
 Run the notebook:
 
-```bash
 jupyter notebook
-```
-
----
-
-# 📦 Requirements
-
-```txt
+📦 Requirements
 pandas
 numpy
 matplotlib
 seaborn
 yfinance
 jupyter
-```
-
----
-
-# 🔥 Future Improvements
-
-* Hidden Markov Model (HMM) based regime detection
-* LSTM stock forecasting
-* Real-time market dashboard
-* Technical indicator integration
-* Portfolio optimization system
-* Risk prediction models
-* Automated trading signal generation
-
----
-
-# 📈 Use Cases
-
-* Financial Data Analysis
-* Quantitative Finance
-* Stock Market Research
-* Algorithmic Trading
-* Risk Analytics
-* Investment Strategy Development
-
----
-
-# 👨‍💻 Author
-
-## Ansh Kambli
+🔥 Future Improvements
+Hidden Markov Model (HMM) based regime detection
+LSTM stock forecasting
+Real-time market dashboard
+Technical indicator integration
+Portfolio optimization system
+Risk prediction models
+Automated trading signal generation
+📈 Use Cases
+Financial Data Analysis
+Quantitative Finance
+Stock Market Research
+Algorithmic Trading
+Risk Analytics
+Investment Strategy Development
+👨‍💻 Author
+Ansh Kambli
 
 Data Analyst | Aspiring Quantitative Analyst | AI Engineer
 
-### Skills
-
-* Financial Analytics
-* Machine Learning
-* Risk Modeling
-* Data Science
-* Predictive Analytics
-
----
-
-# ⭐ Support
-
-If you found this project useful, consider giving this repository a ⭐ on GitHub.
-
----
-
-```
-```
+Skills
+Financial Analytics
+Machine Learning
+Risk Modeling
+Data Science
+Predictive Analytics
